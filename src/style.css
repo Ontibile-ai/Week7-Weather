@@ -33,6 +33,26 @@ header {
   border-radius: 6px;
   cursor: pointer;
 }
+h1 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+p {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+p strong {
+  color: red;
+  font-weight: 700;
+}
+.temperature {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+}
 .city-info {
   display: flex;
   justify-content: space-between;
