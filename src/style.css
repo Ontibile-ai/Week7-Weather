@@ -48,11 +48,28 @@ p strong {
   color: red;
   font-weight: 700;
 }
-.temperature {
-  font-size: 48px;
-  font-weight: 700;
-  margin: 20px 0;
+
+.temperature-container {
+  display: flex;
 }
+
+.temperature-icon {
+  font-size: 50px;
+  line-height: 88px;
+}
+
+.temperature-value {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.temperature-unit {
+  margin-top: 6px;
+  font-size: 28px;
+}
+
 .city-info {
   display: flex;
   justify-content: space-between;
