@@ -23,6 +23,7 @@ header {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16p;
+  background-color: #f9f7fe;
 }
 .search-button {
   padding: 10px 20px;
